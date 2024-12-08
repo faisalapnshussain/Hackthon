@@ -11,8 +11,15 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        
       },
+      fontFamily:{
+        inter:['var(--inter)']
+
+      },
+
     },
+    
   },
   plugins: [],
 } satisfies Config;
