@@ -10,7 +10,7 @@ const Products = () => {
   return (
     <div className={`w-[100%] h-[1200px] ${poppins.className}`}>
           <div>
-            <div className='bg-[#FAF4F4] w-full h-[100px] flex'>
+            <div className='bg-[#FAF4F4] w-full h-[100px] flex mx-8'>
             <div className='w-1/2 flex justify-center items-center'>
             <div className='flex gap-6'>
               <div><Image src={"/images/vector.svg"} alt="abc" width={30} height={30} /></div>
