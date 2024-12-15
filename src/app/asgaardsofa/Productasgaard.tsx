@@ -19,8 +19,8 @@ const Productasgaard = () => {
         <p className='p-4'>Weighing in under 7 pounds, the Kilburn is a lightweight piece of vintage styled engineering. Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound that is both articulate and pronounced. The analogue knobs allow you to fine tune the controls to your personal preferences while the guitar-influenced leather strap enables easy and stylish travel.</p>
       </div >
         <div className='flex items-center justify-center gap-5 p-4'>
-        <div><Image src={"/images/106.svg"} alt='images' height={500} width={500} /> </div>
-        <div><Image src={"/images/107.svg"} alt='images' height={500} width={500} /> </div>
+        <div><Image src={"/images/sofaa.svg"} alt='images' height={500} width={500} /> </div>
+        <div><Image src={"/images/safaaa.svg"} alt='images' height={500} width={500} /> </div>
         </div>
         <div></div>
       </div>
