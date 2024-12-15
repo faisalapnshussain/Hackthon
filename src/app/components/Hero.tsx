@@ -13,14 +13,14 @@ const Hero = () => {
         
         <div className=' bg-[#FBEBB5] h-full w-full flex justify-center items-center'>
             <div className='w-1/2 h-full '>
-            <div className='flex flex-col justify-center w-[400px] mt-48 ml-52'>
+            <div className='flex flex-col justify-center w-[500px] mt-48 ml-52'>
                 
-                <h1 className='text-[64px] '>Rocket single seater</h1>
-                <div className='text-[24px] underline underline-offset-8 mt-10'>Shop Now</div>
+                <span className='text-[64px] ml-10 mt-20'>Rocket single seater</span>
+                <div className='text-[24px] underline underline-offset-8 ml-10 mt-10'>Shop Now</div>
             </div>
             </div>
-            <div className='w-1/2 h-full'> 
-            <Image src={"/images/seater.svg"} alt="couch" width={500}height={500} />
+            <div className='w-1/2 h-full mr-10'> 
+            <Image src={"/images/seater.svg"} alt="couch" width={700}height={700} />
             </div>
         </div>            
     </div>

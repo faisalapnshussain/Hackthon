@@ -18,9 +18,9 @@ const Headershop = () => {
         
         <div >
           <ul className='flex gap-8 mr-4 justify-center items-center text-[20px]'>
-            <li className='hover:underline'><Link href="/home">Home</Link></li>
+            <li className='hover:underline'><Link href="/">Home</Link></li>
             <li className='hover:underline'><Link href="/shop">Shop</Link></li>
-            <li className='hover:underline'><Link href="/about">About</Link></li>
+            <li className='hover:underline'><Link href="/asgaardsofa">About</Link></li>
             <li className='hover:underline'><Link href="/contact">Contact</Link></li>
           </ul>
         </div>

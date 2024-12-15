@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 import Image from 'next/image';
 import {Poppins} from 'next/font/google';
 const poppins = Poppins ({ 
@@ -16,7 +17,7 @@ const Herothree = () => {
             <div className='flex flex-col items-center  mt-40'>
                 <span className='text-[24px]'>New Arrivals</span>
                 <span className='text-[48px]'>Asgaard sofa</span>
-                <button className='border-black border-2 p-4 w-48 m-7'>Order Now</button>
+                <button className='border-black border-2 p-4 w-48 m-7'><Link href="/asgaardsofa"> Order Now</Link></button>
             </div>
         </div>
             
