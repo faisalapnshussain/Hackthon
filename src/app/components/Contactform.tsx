@@ -17,11 +17,11 @@ const Contactform = () => {
     <div className={`w-[100%] h-[800px] ${poppins.className}`}>
 <div className='h-[100px] w-full justify-center flex flex-col items-center mt-10 gap-4'>
     <div className='text-[36px] font-bold'>Get In Touch With Us</div>
-    <p className='text-[16px] w-[600px] text-center'>For More Information About Our Product & Services. Please Feel Free To Drop Us An Email. Our Staff Always Be There To Help You Out. Do Not Hesitate!</p>
+    <p className='text-[20px] w-[600px] text-center'>For More Information About Our Product & Services. Please Feel Free To Drop Us An Email. Our Staff Always Be There To Help You Out. Do Not Hesitate!</p>
     
     
 </div>
-<div className='flex w-[100%] h-[400px] m-20'>
+<div className='flex w-[100%] h-[400px] m-20 text-[20px]'>
 <div className=' flex mx-auto'>
     <div className='grid grid-cols-[40px_200px] grid-rows-2 w-[300px]'>
         <div className='w-[2]'><FaMapMarkerAlt />        </div>

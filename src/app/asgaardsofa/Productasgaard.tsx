@@ -1,9 +1,16 @@
 import React from 'react'
 import Image from 'next/image';
+import {Poppins} from 'next/font/google';
+const poppins = Poppins ({ 
+  subsets: ['latin'],
+  weight: ['400', '700'],
+})
+
+
 
 const Productasgaard = () => {
   return (
-    <div className='w-[100%] h-[700px]  '>
+    <div className={`w-[100%] h-[700px] ${poppins.className} `}>
       <div className='flex w-full h-[100px] items-center justify-center ' >
         <div className='flex gap-14 text-[24px]'>
           <span>Description</span>
@@ -20,7 +27,7 @@ const Productasgaard = () => {
       </div >
         <div className='flex items-center justify-center gap-5 p-4'>
         <div><Image src={"/images/sofaa.svg"} alt='images' height={500} width={500} /> </div>
-        <div><Image src={"/images/safaaa.svg"} alt='images' height={500} width={500} /> </div>
+        <div><Image src={"/images/sofaset.svg"} alt='image' height={500} width={500} /> </div>
         </div>
         <div></div>
       </div>

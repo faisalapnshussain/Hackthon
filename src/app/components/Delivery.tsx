@@ -1,8 +1,13 @@
 import React from 'react'
+import {Poppins} from 'next/font/google';
+const poppins = Poppins ({ 
+  subsets: ['latin'],
+  weight: ['400', '700'],
+})
 
 const Delivery = () => {
   return (
-    <div className='w-full h-[300px] bg-[#FAF4F4] flex justify-center items-center'>
+    <div className={`w-full h-[300px] bg-[#FAF4F4] flex justify-center items-center ${poppins.className}`}>
 
 
 <div className='w-1/3 p-20'>

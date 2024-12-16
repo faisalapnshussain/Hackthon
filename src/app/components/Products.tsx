@@ -10,7 +10,7 @@ const Products = () => {
   return (
     <div className={`w-[100%] h-[1200px] ${poppins.className}`}>
           <div>
-            <div className='bg-[#FAF4F4] w-full h-[100px] flex mx-8'>
+            <div className='bg-[#FAF4F4] w-full h-[100px] flex '>
             <div className='w-1/2 flex justify-center items-center'>
             <div className='flex gap-6'>
               <div><Image src={"/images/vector.svg"} alt="abc" width={30} height={30} /></div>
@@ -57,9 +57,9 @@ const Products = () => {
 
 
 
-<div className='bg-slate-100 w-full h-[1100px] flex flex-wrap justify-center items-center gap-5 '>
+<div className='bg-slate-100 w-full h-[1100px] flex flex-wrap justify-center items-center gap-6 '>
 <div>
-<div className='w-[300px] h-[280px] bg-[#f5f5f5] justify-center flex'>
+<div className='w-[350px] h-[280px] bg-[#f5f5f5] justify-center flex'>
 <Image src={"/images/sofa.svg"} alt="keyboard" width={250} height={220} />
 </div>
 
@@ -71,7 +71,7 @@ const Products = () => {
 
 </div>
 <div>
-<div className='w-[300px] h-[280px] bg-[#f5f5f5] justify-center flex'>
+<div className='w-[350px] h-[280px] bg-[#f5f5f5] justify-center flex'>
 <Image src={"/images/dinning.svg"} alt="keyboard" width={250} height={220} />
 </div>
 <div className='flex flex-col'>
@@ -82,7 +82,7 @@ const Products = () => {
 
 </div>
 <div>
-<div className='w-[300px] h-[280px] bg-[#f5f5f5] justify-center flex'>
+<div className='w-[350px] h-[280px] bg-[#f5f5f5] justify-center flex'>
 <Image src={"/images/outdoor.svg"} alt="keyboard" width={250} height={220} />
 </div>
 
@@ -93,7 +93,7 @@ const Products = () => {
 </div>
 </div>
 <div>
-<div className='w-[300px] h-[280px] bg-[#f5f5f5] justify-center flex'>
+<div className='w-[350px] h-[280px] bg-[#f5f5f5] justify-center flex'>
 <Image src={"/images/garden.svg"} alt="keyboard" width={250} height={220} />
 </div>
 <div className='flex flex-col'>
@@ -104,7 +104,7 @@ const Products = () => {
 </div>
 
 <div>
-<div className='w-[300px] h-[280px] bg-[#f5f5f5] justify-center flex flex-wrap'>
+<div className='w-[350px] h-[280px] bg-[#f5f5f5] justify-center flex flex-wrap'>
 <Image src={"/images/5.svg"} alt="keyboard" width={250} height={220} />
 </div>
 <div className='flex flex-col'>
@@ -114,7 +114,7 @@ const Products = () => {
 </div>
 </div>
 <div>
-<div className='w-[300px] h-[280px] bg-[#f5f5f5] justify-center flex'>
+<div className='w-[350px] h-[280px] bg-[#f5f5f5] justify-center flex'>
 <Image src={"/images/6.svg"} alt="keyboard" width={250} height={220} />
 </div>
 <div className='flex flex-col'>
@@ -125,7 +125,7 @@ const Products = () => {
 </div>
 
 <div>
-<div className='w-[300px] h-[280px] bg-[#f5f5f5] justify-center flex'>
+<div className='w-[350px] h-[280px] bg-[#f5f5f5] justify-center flex'>
 <Image src={"/images/7.svg"} alt="keyboard" width={250} height={220} />
 </div>
 <div className='flex flex-col'>
@@ -135,7 +135,7 @@ const Products = () => {
 </div>
 </div>
 <div>
-<div className='w-[300px] h-[280px] bg-[#f5f5f5] justify-center flex'>
+<div className='w-[350px] h-[280px] bg-[#f5f5f5] justify-center flex'>
 <Image src={"/images/8.svg"} alt="keyboard" width={250} height={220} />
 </div>
 <div className='flex flex-col'>
@@ -145,7 +145,7 @@ const Products = () => {
 </div>
 </div>
 <div>
-<div className='w-[300px] h-[280px] bg-[#f5f5f5] justify-center flex'>
+<div className='w-[350px] h-[280px] bg-[#f5f5f5] justify-center flex'>
 <Image src={"/images/4.svg"} alt="keyboard" width={250} height={220} />
 </div>
 <div className='flex flex-col'>
@@ -155,7 +155,7 @@ const Products = () => {
 </div>
 </div>
 <div>
-<div className='w-[300px] h-[280px] bg-[#f5f5f5] justify-center flex'>
+<div className='w-[350px] h-[280px] bg-[#f5f5f5] justify-center flex'>
 <Image src={"/images/10.svg"} alt="keyboard" width={250} height={220} />
 </div>
 <div className='flex flex-col'>
@@ -165,7 +165,7 @@ const Products = () => {
 </div>
 </div>
 <div>
-<div className='w-[300px] h-[280px] bg-[#f5f5f5] justify-center flex'>
+<div className='w-[350px] h-[280px] bg-[#f5f5f5] justify-center flex'>
 <Image src={"/images/11.svg"} alt="keyboard" width={250} height={220} />
 </div>
 <div className='flex flex-col'>
@@ -175,7 +175,7 @@ const Products = () => {
 </div>
 </div>
 <div>
-<div className='w-[300px] h-[280px] bg-[#f5f5f5] justify-center flex'>
+<div className='w-[350px] h-[280px] bg-[#f5f5f5] justify-center flex'>
 <Image src={"/images/12.svg"} alt="keyboard" width={250} height={220} />
 </div>
 <div className='flex flex-col'>

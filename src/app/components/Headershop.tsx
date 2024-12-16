@@ -25,7 +25,7 @@ const Headershop = () => {
           </ul>
         </div>
         <div className='flex justify-items-end text-[24px] gap-14 absolute right-20'>
-        <FaRegUser className='text-[20px]'/> <FiSearch /> <IoIosHeartEmpty className='font-bold' /><IoCartOutline />
+        <Link href="/account"> <FaRegUser className='text-[20px]'/> </Link> <FiSearch /> <IoIosHeartEmpty className='font-bold' /><IoCartOutline />
         </div>
     </div>
 

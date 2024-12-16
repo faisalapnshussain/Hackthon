@@ -12,26 +12,24 @@ const poppins = Poppins ({
 })
 
 
-
-const Header = () => {
+const Headercontact = () => {
   return (
-    <div className={`w-[100%] h-[100px] items-center justify-center flex bg-[#FBEBB5] relative border-2 ${poppins.className}`}>
+    <div className={`w-[100%] h-[100px] items-center justify-center flex relative border-2 ${poppins.className} `}>
         
         <div >
           <ul className='flex gap-8 mr-4 justify-center items-center text-[20px]'>
             <li className='hover:underline'><Link href="/">Home</Link></li>
             <li className='hover:underline'><Link href="/shop">Shop</Link></li>
-            <li className='hover:underline'><Link href="/about">About</Link></li>
+            <li className='hover:underline'><Link href="/asgaardsofa">About</Link></li>
             <li className='hover:underline'><Link href="/contact">Contact</Link></li>
-            
           </ul>
         </div>
         <div className='flex justify-items-end text-[24px] gap-14 absolute right-20'>
-        <Link href="/account"> <FaRegUser className='text-[20px]'/> </Link><FiSearch /> <IoIosHeartEmpty className='font-bold' /><IoCartOutline />
+        <Link href="/account"> <FaRegUser className='text-[20px]'/> </Link> <FiSearch /> <IoIosHeartEmpty className='font-bold' /><IoCartOutline />
         </div>
     </div>
 
   )
 }
 
-export default Header
+export default Headercontact

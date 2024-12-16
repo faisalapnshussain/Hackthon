@@ -1,8 +1,14 @@
 import React from 'react'
+import {Poppins} from 'next/font/google';
+const poppins = Poppins ({ 
+  subsets: ['latin'],
+  weight: ['400', '700'],
+})
+
 
 const Asgaard = () => {
   return (
-    <section className="text-gray-600 body-font overflow-hidden">
+    <section className={`text-gray-600 body-font overflow-hidden ${poppins.className}`}>
   <div className="container px-5 py-24 mx-auto">
     <div className="lg:w-4/5 mx-auto flex flex-wrap">
       <img
